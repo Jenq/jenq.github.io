@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'SN';
+    src: url('./sn-font.eot');
+    src: url('./sn-font.eot?#iefix') format('embedded-opentype'),
+         url('./sn-font.woff') format('woff'),
+         url('./sn-font.ttf') format('truetype'),
+         url('./sn-font.svg#SN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'SN';
+        src: url('./sn-font.svg#SN') format('svg');
+    }
+}
+  
+[class^='sn-']:before, [class*=' sn-']:before,
+[class^='sn-']:after, [class*=' sn-']:after {   
+    font-family: SN;
+    font-size: 20px;
+    font-style: normal;
+    color: #fff;
+}
+  
+.sn-vk:before { content: '\f100'; }
+.sn-telegram:before { content: '\f101'; }
+.sn-facebook:before { content: '\f102'; }
+.sn-instagram:before { content: '\f103'; }
+.sn-youtube:before { content: '\f104'; }
