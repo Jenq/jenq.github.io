@@ -416,6 +416,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+ngx-youtube-player
+
 promise-polyfill
 MIT
 Copyright (c) 2014 Taylor Hakes
